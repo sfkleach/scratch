@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/sfkleach/scratch/edit/mast
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-(Causing rebase to be non-trivial. Now hack this - for squashing.)
+(Causing rebase to be non-trivial. Now hack this - for squashing. Hacked again for reviewing the remote repo extension from Microsoft.)
 
 ### Markdown
 
