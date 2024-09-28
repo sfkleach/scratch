@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4.2  # Check out the repository code
+      uses: actions/checkout@v4.2.0  # Check out the repository code
 
     - name: Print Hello World
       run: echo "Hello, World!"  # Print "Hello, World!" to the console
