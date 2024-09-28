@@ -1,0 +1,16 @@
+name: Minimal Workflow
+
+on:
+  push:  # Trigger the workflow on any push to the repository
+  workflow_dispatch:  # Add this line to enable manual triggering
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use the latest version of Ubuntu as the runner
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3  # Check out the repository code
+
+    - name: Print Hello World
+      run: echo "Hello, World!"  # Print "Hello, World!" to the console
