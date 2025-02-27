@@ -3,6 +3,58 @@
 This is a description of my project. Below is a tree diagram created using Mermaid:
 
 ```mermaid
+graph TD
+  138692395095504["form"]:::customStyle;
+  138692395095584["part: def"]:::customStyle;
+  138692395095504 --> 138692395095584;
+  138692395095664["apply"]:::customStyle;
+  138692395095584 --> 138692395095664;
+  138692395095744["identifier: f"]:::customStyle;
+  138692395095664 --> 138692395095744;
+  138692395095824["arguments"]:::customStyle;
+  138692395095664 --> 138692395095824;
+  138692395095904["identifier: n"]:::customStyle;
+  138692395095824 --> 138692395095904;
+  138692395095984["part: _"]:::customStyle;
+  138692395095504 --> 138692395095984;
+  138692395096064["form"]:::customStyle;
+  138692395095984 --> 138692395096064;
+  138692395096144["part: if"]:::customStyle;
+  138692395096064 --> 138692395096144;
+  138692395096224["operator: <="]:::customStyle;
+  138692395096144 --> 138692395096224;
+  138692395096304["identifier: n"]:::customStyle;
+  138692395096224 --> 138692395096304;
+  138692395096384["number: 1"]:::customStyle;
+  138692395096224 --> 138692395096384;
+  138692395096464["part: _"]:::customStyle;
+  138692395096064 --> 138692395096464;
+  138692395096544["number: 1"]:::customStyle;
+  138692395096464 --> 138692395096544;
+  138692395096624["part: else"]:::customStyle;
+  138692395096064 --> 138692395096624;
+  138692395096704["operator: *"]:::customStyle;
+  138692395096624 --> 138692395096704;
+  138692395096784["identifier: n"]:::customStyle;
+  138692395096704 --> 138692395096784;
+  138692395096864["apply"]:::customStyle;
+  138692395096704 --> 138692395096864;
+  138692395097024["identifier: f"]:::customStyle;
+  138692395096864 --> 138692395097024;
+  138692395097184["arguments"]:::customStyle;
+  138692395096864 --> 138692395097184;
+  138692395097344["operator: -"]:::customStyle;
+  138692395097184 --> 138692395097344;
+  138692395097504["identifier: n"]:::customStyle;
+  138692395097344 --> 138692395097504;
+  138692395097664["number: 1"]:::customStyle;
+  138692395097344 --> 138692395097664;
+
+classDef customStyle fill:#lightgray,stroke:#333,stroke-width:2px;
+
+```
+
+```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffcc00', 'secondaryColor': '#ffcc99', 'tertiaryColor': '#ffe5cc'}}}%%
 mindmap
   root((Root))
@@ -12,6 +64,17 @@ mindmap
     sub2((Subnode 2))
       subsub3((Subnode 2.1))
       subsub4((Subnode 2.2))
+```
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffcc00', 'secondaryColor': '#ffcc99', 'tertiaryColor': '#ffe5cc'}}}%%
+flowchart TD
+  A[Root] --> B[Subnode 1]
+  A --> C[Subnode 2]
+  B --> D[Subnode 1.1]
+  B --> E[Subnode 1.2]
+  C --> F[Subnode 2.1]
+  C --> G[Subnode 2.2]
 ```
 
 
