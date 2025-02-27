@@ -1,3 +1,20 @@
+# My Project
+
+This is a description of my project. Below is a tree diagram created using Mermaid:
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffcc00', 'secondaryColor': '#ffcc99', 'tertiaryColor': '#ffe5cc'}}}%%
+mindmap
+  root((Root))
+    sub1((Subnode 1))
+      subsub1((Subnode 1.1))
+      subsub2((Subnode 1.2))
+    sub2((Subnode 2))
+      subsub3((Subnode 2.1))
+      subsub4((Subnode 2.2))
+
+
+
 ## Welcome to Old GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/sfkleach/scratch/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
