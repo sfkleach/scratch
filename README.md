@@ -12,7 +12,7 @@ mindmap
     sub2((Subnode 2))
       subsub3((Subnode 2.1))
       subsub4((Subnode 2.2))
-
+```
 
 
 ## Welcome to Old GitHub Pages
